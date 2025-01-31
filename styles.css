@@ -51,3 +51,13 @@ button:hover {
     font-weight: bold;
     color: #333;
 }
+
+/* Smooth Fade-in for Result */
+#result {
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.result-visible {
+    opacity: 1 !important;
+}
